@@ -1,8 +1,6 @@
 package fr.banque.entite;
 
 import java.io.Serializable;
-import java.lang.Long;
-import java.lang.String;
 import javax.persistence.*;
 
 /**
@@ -15,26 +13,26 @@ public class Compte implements Serializable {
 
 	   
 	@Id
-	private Long CompteId;
-	private String Nom;
+	private Long compteId;
+	private String nom;
 	private static final long serialVersionUID = 1L;
 
 	public Compte() {
 		super();
 	}   
 	public Long getCompteId() {
-		return this.CompteId;
+		return this.compteId;
 	}
 
 	public void setCompteId(Long pCompteId) {
-		this.CompteId = pCompteId;
+		this.compteId = pCompteId;
 	}   
 	public String getNom() {
-		return this.Nom;
+		return this.nom;
 	}
 
 	public void setNom(String pNom) {
-		this.Nom = pNom;
+		this.nom = pNom;
 	}
    
 }
