@@ -1,6 +1,8 @@
 package fr.banque.entite;
 
 import java.io.Serializable;
+import java.lang.Long;
+import java.lang.String;
 import javax.persistence.*;
 
 /**
